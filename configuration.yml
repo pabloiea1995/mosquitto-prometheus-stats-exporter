@@ -1,0 +1,12 @@
+configuration:
+  deployment:
+    port: 9031
+  brokerMqttInfo:
+    mqttBrokerURL : "tcp://192.168.0.41:1883"
+    mqttMainTopic : "$SYS/broker/#" #main broker status topic of mosquitto mqtt broker.
+
+    
+
+    
+  
+      

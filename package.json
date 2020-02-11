@@ -1,0 +1,16 @@
+{
+  "name": "mosquitto_stats_prometheus_exporter",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node serve.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "js-yaml": "^3.13.1",
+    "mqtt": "^3.0.0",
+    "prom-client": "^11.5.3",
+    "promise": "^8.0.3"
+  }
+}
