@@ -22,7 +22,7 @@ server.get('/metrics', (req, res) => {
 //Enable collection of default metrics
 //client.collectDefaultMetrics();
 
-console.log('Server listening to 3010, metrics exposed on /metrics endpoint');
+console.log(`Server listening to ${config.deploymentPort}, metrics exposed on /metrics endpoint`);
 server.listen(config.deploymentPort);
 
 mqttConection.mqttCicles();
